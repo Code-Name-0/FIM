@@ -81,12 +81,12 @@ clean: CMakeFiles/fim.dir/clean
 CMakeFiles/fim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fim.dir/build.make CMakeFiles/fim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fim.dir/build.make CMakeFiles/fim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rabah/Desktop/FIM/build/CMakeFiles --progress-num=1,2,3 "Built target fim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rabah/Desktop/FIM/build/CMakeFiles --progress-num=1,2,3,4 "Built target fim"
 .PHONY : CMakeFiles/fim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabah/Desktop/FIM/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabah/Desktop/FIM/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabah/Desktop/FIM/build/CMakeFiles 0
 .PHONY : CMakeFiles/fim.dir/rule

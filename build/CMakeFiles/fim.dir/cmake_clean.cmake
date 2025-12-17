@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fim.dir/src/FileMonitor.cpp.o"
+  "CMakeFiles/fim.dir/src/FileMonitor.cpp.o.d"
   "CMakeFiles/fim.dir/src/Hasher.cpp.o"
   "CMakeFiles/fim.dir/src/Hasher.cpp.o.d"
   "CMakeFiles/fim.dir/src/main.cpp.o"

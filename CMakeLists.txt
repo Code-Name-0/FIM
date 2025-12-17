@@ -19,7 +19,8 @@ find_package(OpenSSL REQUIRED)
 
 add_executable( fim 
 				src/main.cpp
-				src/Hasher.cpp)
+				src/Hasher.cpp
+				src/FileMonitor.cpp)
 
 # link deps
 

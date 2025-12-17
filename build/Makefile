@@ -129,6 +129,30 @@ fim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fim.dir/build.make CMakeFiles/fim.dir/build
 .PHONY : fim/fast
 
+src/FileMonitor.o: src/FileMonitor.cpp.o
+.PHONY : src/FileMonitor.o
+
+# target to build an object file
+src/FileMonitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fim.dir/build.make CMakeFiles/fim.dir/src/FileMonitor.cpp.o
+.PHONY : src/FileMonitor.cpp.o
+
+src/FileMonitor.i: src/FileMonitor.cpp.i
+.PHONY : src/FileMonitor.i
+
+# target to preprocess a source file
+src/FileMonitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fim.dir/build.make CMakeFiles/fim.dir/src/FileMonitor.cpp.i
+.PHONY : src/FileMonitor.cpp.i
+
+src/FileMonitor.s: src/FileMonitor.cpp.s
+.PHONY : src/FileMonitor.s
+
+# target to generate assembly for a file
+src/FileMonitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fim.dir/build.make CMakeFiles/fim.dir/src/FileMonitor.cpp.s
+.PHONY : src/FileMonitor.cpp.s
+
 src/Hasher.o: src/Hasher.cpp.o
 .PHONY : src/Hasher.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fim"
+	@echo "... src/FileMonitor.o"
+	@echo "... src/FileMonitor.i"
+	@echo "... src/FileMonitor.s"
 	@echo "... src/Hasher.o"
 	@echo "... src/Hasher.i"
 	@echo "... src/Hasher.s"
